@@ -35,13 +35,14 @@ public class HomeFragment extends Fragment  implements BaseSliderView.OnSliderCl
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-
-        sliderLayout = (SliderLayout) view.findViewById(R.id.slider);
-
+        inti(view);
         AddImagesUrlOnline();
+        handelSlider();
 
+        return view;
+    }
 
-
+    private void handelSlider() {
         for(String name : HashMapForURL.keySet()){
 
             TextSliderView textSliderView = new TextSliderView(getActivity());
@@ -68,9 +69,12 @@ public class HomeFragment extends Fragment  implements BaseSliderView.OnSliderCl
         sliderLayout.setDuration(3000);
 
         //sliderLayout.addOnPageChangeListener((ViewPagerEx.OnPageChangeListener) getActivity().getApplicationContext());
-
-        return view;
     }
+
+    private void inti(View view) {
+        sliderLayout = (SliderLayout) view.findViewById(R.id.slider);
+    }
+
 
     public void AddImagesUrlOnline(){
 

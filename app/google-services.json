@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1445678124",
+    "firebase_url": "https://uae-kandora.firebaseio.com",
+    "project_id": "uae-kandora",
+    "storage_bucket": "uae-kandora.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1445678124:android:8dce3fe92206f8ccb51589",
+        "android_client_info": {
+          "package_name": "ng.com.uae.kandora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1445678124-lm5sq5nq6129409e7m9pvup7gt4r2g7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIDMIaWusLYzTj96cls3Aa07MnYgWA6VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1445678124-lm5sq5nq6129409e7m9pvup7gt4r2g7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

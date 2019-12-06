@@ -13,10 +13,10 @@ import ng.com.uae.kandora.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class NotificationsFragment extends Fragment {
+public class ProfileFragment extends Fragment {
 
 
-    public NotificationsFragment() {
+    public ProfileFragment() {
         // Required empty public constructor
     }
 

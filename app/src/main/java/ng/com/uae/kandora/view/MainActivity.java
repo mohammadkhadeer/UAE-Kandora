@@ -1,27 +1,15 @@
 package ng.com.uae.kandora.view;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
-
-import com.daimajia.slider.library.Animations.DescriptionAnimation;
-import com.daimajia.slider.library.SliderLayout;
-import com.daimajia.slider.library.SliderTypes.BaseSliderView;
-import com.daimajia.slider.library.SliderTypes.TextSliderView;
-import com.daimajia.slider.library.Tricks.ViewPagerEx;
-
-import java.util.HashMap;
 
 import ng.com.uae.kandora.view.mainActivityFragment.FavoriteFragment;
-import ng.com.uae.kandora.view.mainActivityFragment.NotificationsFragment;
+import ng.com.uae.kandora.view.mainActivityFragment.ProfileFragment;
 import ng.com.uae.kandora.R;
 import ng.com.uae.kandora.view.mainActivityFragment.HomeFragment;
 
@@ -30,7 +18,7 @@ public class MainActivity extends AppCompatActivity{
 
     final Fragment fragment1 = new HomeFragment();
     final Fragment fragment2 = new FavoriteFragment();
-    final Fragment fragment3 = new NotificationsFragment();
+    final Fragment fragment3 = new ProfileFragment();
     final FragmentManager fm = getSupportFragmentManager();
     Fragment active = fragment1;
 
