@@ -1,17 +1,13 @@
 package ng.com.uae.kandora.model;
 
+import java.util.ArrayList;
+
 public class FrontPockets {
-    FrontPocketsComp frontPocketsComp;
-    public FrontPockets(FrontPocketsComp frontPocketsComp)
+    public ArrayList<FrontPocketsComp> frontPocketsCompArrayList ;
+
+    public FrontPockets(ArrayList<FrontPocketsComp>  frontPocketsCompArrayList)
     {
-        this.frontPocketsComp=frontPocketsComp;
+        this.frontPocketsCompArrayList = frontPocketsCompArrayList;
     }
 
-    public FrontPocketsComp getFrontPocketsComp() {
-        return frontPocketsComp;
-    }
-
-    public void setFrontPocketsComp(FrontPocketsComp frontPocketsComp) {
-        this.frontPocketsComp = frontPocketsComp;
-    }
 }

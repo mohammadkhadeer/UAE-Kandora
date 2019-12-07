@@ -1,6 +1,7 @@
 package ng.com.uae.kandora.model;
 
 public class ItemComponents {
+
     BackFace backFace;
     ClothType clothType;
     CollarType collarType;
@@ -9,6 +10,7 @@ public class ItemComponents {
     FrontPockets frontPockets;
     KandoraType kandoraType;
     Stitching stitching;
+
     public ItemComponents(BackFace backFace,ClothType clothType,CollarType collarType,CuffType cuffType,FrontFace frontFace,FrontPockets frontPockets,KandoraType kandoraType,Stitching stitching)
     {
         this.backFace=backFace;
@@ -84,4 +86,5 @@ public class ItemComponents {
     public void setStitching(Stitching stitching) {
         this.stitching = stitching;
     }
+
 }
