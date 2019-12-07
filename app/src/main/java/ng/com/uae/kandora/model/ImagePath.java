@@ -2,6 +2,7 @@ package ng.com.uae.kandora.model;
 
 public class ImagePath {
     String imagePath;
+    public ImagePath(){}
     public ImagePath(String imagePath)
     {
         this.imagePath = imagePath;

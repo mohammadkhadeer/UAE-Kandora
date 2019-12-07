@@ -2,6 +2,8 @@ package ng.com.uae.kandora.model;
 
 public class PeopleCommentsDetails {
     String userName,userComment,userImage;
+
+    public PeopleCommentsDetails(){}
     public PeopleCommentsDetails (String userName,String userComment,String userImage)
     {
         this.userName = userName;

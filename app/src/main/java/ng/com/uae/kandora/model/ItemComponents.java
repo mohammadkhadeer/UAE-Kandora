@@ -2,6 +2,8 @@ package ng.com.uae.kandora.model;
 
 public class ItemComponents {
 
+    public ItemComponents(){}
+
     BackFace backFace;
     ClothType clothType;
     CollarType collarType;

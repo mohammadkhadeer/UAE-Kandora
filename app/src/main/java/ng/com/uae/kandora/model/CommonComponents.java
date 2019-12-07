@@ -8,6 +8,10 @@ public class CommonComponents {
         this.englishDes =englishDes;
     }
 
+    public CommonComponents() {
+
+    }
+
     public String getArabicDes() {
         return arabicDes;
     }

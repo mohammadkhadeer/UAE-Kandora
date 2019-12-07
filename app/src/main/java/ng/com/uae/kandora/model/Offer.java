@@ -3,6 +3,8 @@ package ng.com.uae.kandora.model;
 public class Offer {
     String newPrice,offerExpiry,offerOrNot,specialOffer;
     SpecialOfferDes specialOfferDes;
+
+    public Offer(){}
     public Offer(String newPrice,String offerExpiry,String offerOrNot,String specialOffer,SpecialOfferDes specialOfferDes)
     {
         this.newPrice = newPrice;

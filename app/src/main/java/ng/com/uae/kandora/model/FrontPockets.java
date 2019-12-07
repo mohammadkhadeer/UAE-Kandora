@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class FrontPockets {
     public ArrayList<FrontPocketsComp> frontPocketsCompArrayList ;
 
+    public FrontPockets(){}
+
     public FrontPockets(ArrayList<FrontPocketsComp>  frontPocketsCompArrayList)
     {
         this.frontPocketsCompArrayList = frontPocketsCompArrayList;

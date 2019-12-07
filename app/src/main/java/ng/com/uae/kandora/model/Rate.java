@@ -2,6 +2,7 @@ package ng.com.uae.kandora.model;
 
 public class Rate {
     String rateAvg,rateNum;
+    public Rate(){}
     public Rate(String rateAvg,String rateNum)
     {
         this.rateAvg=rateAvg;
